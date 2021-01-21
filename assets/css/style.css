@@ -1291,6 +1291,7 @@ a.btn:hover{
 .header-page .logo{
   margin: 0 0 0 15px;
   padding: 4px 0 0;
+  height: 64px;
 }
 .header-page .gnav{
   background: #fff;
