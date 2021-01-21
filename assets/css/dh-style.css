@@ -305,7 +305,7 @@
 .teacher-checkout-info-name {
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 14px 26px;
 }
 .teacher-checkout-info-name p.name-teacher .name {
     font-size: 25px;
@@ -324,7 +324,7 @@ p.name-teacher {
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 12px 20px;
 }
 .teacher-checkout-info-work p span {
     display: block;
@@ -342,10 +342,18 @@ p.name-teacher {
     font-weight: 500;
 }
 .teacher-checkout-info-time {
-    padding: 20px;
+    padding: 16px 20px;
 }
 .teacher-checkout-info .teacher-checkout-info-name, .teacher-checkout-info .teacher-checkout-info-work {
     border-bottom: 1px solid #b7b7b7;
+}
+.teacher-checkout-info-lessons .email-2student-fivelessons {
+    border: none;
+    padding: 0 50px;
+}
+.teacher-checkout-info-lessons .email-2student-fivelessons p {
+  color: #333;
+  font-weight: 500;
 }
 ul.option-for-teacher li a {
     color: #333;
@@ -414,12 +422,13 @@ p.summary-sidebar__contents_timeline span {
 
 }
 .my-lessons-summary-detail h3 {
-    padding: 10px 20px;
+    padding: 10px 20px 13px;
     font-weight: 500;
+    margin: 0;
 }
-.my-lessons-summary-detail .my-lessons-id{
+.my-lessons-summary-detail .my-lessons-id {
     border-top: 1px solid #b7b7b7;
-    padding: 10px 20px;
+    padding: 12px 20px 11px;
     font-weight: 500;
 }
 .my-lessons-summary-detail .my-lessons-id p {
@@ -428,9 +437,9 @@ p.summary-sidebar__contents_timeline span {
 .my-lessons-summary-detail .my-lessons-id p span {
     color: #018EE3;
 }
-.my-lessons-summary-detail .my-lessons-times{
+.my-lessons-summary-detail .my-lessons-times {
     border-top: 1px solid #b7b7b7;
-    padding: 10px 20px;
+    padding: 13px 22px 15px;
 }
 .my-lessons-summary-detail .my-lessons-times span {
     font-size: 16px;
@@ -439,13 +448,15 @@ p.summary-sidebar__contents_timeline span {
 .my-lessons-summary-detail .my-lessons-times p {
     font-size: 20px;
     font-weight: 500;
+    line-height: 1;
 }
 .my-lessons-summary-detail .my-lesson-summary-teacher{
     border-top: 1px solid #b7b7b7;
-    padding: 10px 20px;
+    padding: 12px 22px 20px;
 }
 .summary-teacher__teacher-name {
     display: inline-block;
+    padding-left: 10px;
 }
 .my-lesson-summary-teacher div p {
     font-size: 16px;
@@ -461,11 +472,13 @@ p.summary-sidebar__contents_timeline span {
     font-weight: bold;
     color: #01a1eb;
     border: 1px solid #01a1eb;
-    padding: 15px 40px;
+    padding: 10px 36px;
     border-radius: 5px;
 }
 .btn-mylesssons-cancel{
   text-align: right;
+  display: inline-block;
+  float: right;
 }
 .hiden {
     display: none;
@@ -582,6 +595,9 @@ p.teacher-checkbox-time:before {
 }
 .teacher-checkout-info-work p {
     width: 25%;
+}
+.teacher-checkout-info-work p.languages-duration {
+  width: 24%;
 }
 .email-2student-fivelessons,.email-2student-tenlessons {
     padding: 15px 30px;
@@ -833,7 +849,10 @@ p.teacher-checkbox-time:before {
     justify-content: space-between;
 }
 .my-lessons-summary-detail .my-lesson-summary-teacher>div:not(:nth-child(1)) {
-    padding-left: 35px;
+    padding-left: 58px;
+}
+.my-lessons-summary-teacher__language-teach {
+    padding-left: 46px !important;
 }
 .schedule-lesson-calendar-detail td {
     padding: 15px;
@@ -922,8 +941,10 @@ ul.option-for-teacher{
     width: 85%;
 }
 .btn-mylesssons-cancel{
-  text-align: center;
-  margin: 35px 0;
+    text-align: center;
+    margin: 35px 0;
+    display: block;
+    float: inherit;
 }
 .my-lessons-summary-sidebar__contents{
   margin: 0 0 30px 0;
@@ -969,7 +990,9 @@ ul.option-for-teacher{
 .form-coupon input[type="text"] {
     width: 60%;
 }
-
+.summary-teacher__teacher-name {
+  padding-left: 0;
+}
 
 
 
