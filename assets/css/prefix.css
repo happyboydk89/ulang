@@ -1,0 +1,80 @@
+.red{
+  color: #ff0000;
+}
+.blue{
+  color: #018EE3;
+}
+.orange{
+  color: #FF9900;
+}
+.black{
+  color: #000;
+}
+
+.icon{
+  position: relative;
+}
+.icon:before{
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin: -12px 0 0;
+}
+.icon-notebook:before{
+  background: url(../img/icon/notebook.png) no-repeat center;
+  background-size: cover;
+}
+.icon-student:before{
+  background: url(../img/icon/graduate.png) no-repeat center;
+  background-size: cover;
+}
+.icon-wallet:before{
+  background: url(../img/icon/wallet.png) no-repeat center;
+  background-size: cover;
+}
+.icon-calendar:before{
+  background: url(../img/icon/calendar.png) no-repeat center;
+  background-size: cover;
+}
+.icon-profile:before{
+  background: url(../img/icon/person.png) no-repeat center;
+  background-size: cover;
+}
+.icon-settings:before{
+  background: url(../img/icon/wrench-double.png) no-repeat center;
+  background-size: cover;
+}
+.icon-support:before{
+  background: url(../img/icon/person-unknown.png) no-repeat center;
+  background-size: cover;
+}
+.icon-logout:before{
+  background: url(../img/icon/logout.png) no-repeat center;
+  background-size: cover;
+}
+
+a.btn-red{
+  background: #ff0000;
+  width: 120px;
+  font-size: 16px;
+  font-weight: normal;
+}
+@media screen and (max-width:920px){
+  a.btn-red{
+    height: 30px;
+  }
+}
+
+.btn-blue a,
+a.btn-blue{
+  background: #fff;
+  color: #018EE3;
+  border: 1px solid #018EE3;
+}
+.btn-blue a:hover,
+a.btn-blue:hover{
+  color: #fff;
+}

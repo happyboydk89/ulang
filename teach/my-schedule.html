@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+  <title>ulanguage original</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:description" content="">
+  <meta property="og:site_name" content="">
+  <link rel="icon" type="image/png" href="../assets/img/toplogo.png">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+  <link rel="stylesheet" href="../assets/css/import.css">
+</head>
+<body id="top">
+  <header class="header header-page" id="header">
+    <div class="header-top">
+      <!-- <div class="logo-text"><a href="#">uLanguage</a></div> -->
+      <div class="logo-text"><a href="#"><img src="../assets/img/logo.png" alt=""></a></div>
+      <div class="btn__menu"><span></span> <span></span> <span></span></div>
+      <nav class="gnav logged">
+        <ul>
+          <li><a href="#">TEACHER SETTINGS</a></li>
+          <li class="active"><a href="#">MY SCHEDULE</a></li>
+          <li class="point-active"><a href="#">MESSAGES</a></li>
+          <li class="dropdown">
+            <span class="dropdown-trigger">SITE LANGUAGE</span>
+            <ul class="dropdown-content">
+              <li><a href="#">English</a></li>
+              <li><a href="#">Tiếng Việt</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="login-nav login-action dropdown">
+          <div class="photo"><img src="../assets/img/avatar/avatar02.png" width="50" alt=""></div>
+          <p class="dropdown-trigger">Amee Do</p>
+          <ul class="dashboard-menu dropdown-content">
+            <li><a href="" class="icon icon-notebook">My Lessons</a></li>
+            <li><a href="" class="icon icon-student">My Students</a></li>
+            <li><a href="" class="icon icon-wallet">My Wallet</a></li>
+            <li><a href="" class="icon icon-calendar">Calendar</a></li>
+            <li><a href="" class="icon icon-profile">Profile</a></li>
+            <li><a href="" class="icon icon-settings">Settings</a></li>
+            <li><a href="" class="icon icon-support">Support</a></li>
+            <li><a href="" class="icon icon-logout">Log Out</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  
+  <main class="main main-page2">
+    <section class="dashboard">
+      <div class="container">
+        <div class="my-schedule">
+          <div class="calendar">
+            <div class="calendar-header">
+              <div class="c-prev"><a href=""><img src="../assets/img/prev.png" width="40" alt=""></a></div>
+              <div class="c-title bold">
+                September 2019
+              </div>
+              <div class="c-next"><a href=""><img src="../assets/img/next.png" width="40" alt=""></a></div>
+            </div>
+            <!--  -->
+  
+            <div class="c-des-wrap">
+              <div class="c-des">
+                <ul>
+                  <li class="c-des-status1"><a href="">Action Required</a></li>
+                  <li class="c-des-status2"><a href="">Upcoming</a></li>
+                  <li class="c-des-status3"><a href="">Waiting</a></li>
+                  <li class="c-des-status4"><a href="">Completed</a></li>
+                </ul>
+              </div>
+              <!-- des -->
+              
+              <div class="filter">
+                <ul>
+                  <li class="active"><a href="#">All</a></li>
+                  <li><a href="#">Teacher</a></li>
+                  <li><a href="#">Student</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="c-body">
+              <table class="tb tb-calendar">
+                <thead>
+                  <thead>
+                    <td>Sunday</td>
+                    <td>Monday</td>
+                    <td>Tuesday</td>
+                    <td>Wednesday</td>
+                    <td>Thursday</td>
+                    <td>Friday</td>
+                    <td>Saturday</td>
+                  </thead>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                  </tr>
+                  <tr>
+                    <td>15</td>
+                    <td class="red-selected">16</td>
+                    <td>17 <span class="tb-timing">05:00 AM - 06:00 AM</span></td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                  </tr>
+                  <tr>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                  </tr>
+                  <tr>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td class="next-month">1</td>
+                    <td class="next-month">2</td>
+                    <td class="next-month">3</td>
+                    <td class="next-month">4</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- c-body -->
+          </div>
+          <!-- calendar -->
+        </div>
+
+        <div class="btn-group btn btn-normal btn-blue-round">
+          <a href="">CHANGE AVAILABILITY</a>
+          <a href="">GET ICALENDAR FEED</a>
+        </div>
+      </div>
+    </section>
+    <!-- tech -->
+
+  </main>
+  <!-- main -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="fcol fcol1">
+        <h3 class="line">Language</h3>
+        <ul class="fnav">
+          <li><a href="#">EnglishTeachers</a></li>
+          <li><a href="#">FrenchTeachers</a></li>
+          <li><a href="#">SpanishTeachers</a></li>
+          <li><a href="#">GermanTeachers</a></li>
+          <li><a href="#">JapaneseTeachers</a></li>
+          <li><a href="#">KoreanTeachers</a></li>
+          <li><a href="#">ItalianTeachers</a></li>
+          <li><a href="#">RussianTeachers</a></li>
+          <li><a href="#">OtherTeachers</a></li>
+        </ul>
+      </div>
+      <!-- fcol -->
+
+      <div class="fcol fcol2">
+        <h3 class="line">More</h3>
+        <ul class="fnav">
+          <li><a href="#">Refer a Friend and Get $5 </a></li>
+          <li><a href="#">Buy a Gift Card </a></li>
+          <li><a href="#">uLanguage Business </a></li>
+          <li><a href="#">Partnership Program </a></li>
+          <li><a href="#">Afﬁliate Program </a></li>
+          <li><a href="#">Test your English level </a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact Us </a></li>
+        </ul>
+      </div>
+      <!-- fcol -->
+
+      <div class="fcol fcol3">
+        <h3 class="line">Teaching</h3>
+        <ul class="fnav">
+          <li><a href="#">Become aTeacher</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <!-- fcol -->
+
+      <div class="fcol fcol4">
+        <h3 class="line">Social media</h3>
+        <ul class="sns">
+          <li><a href="#"><img src="../assets/img/fb.png" alt=""></a></li>
+          <li><a href="#"><img src="../assets/img/tt.png" alt=""></a></li>
+          <li><a href="#"><img src="../assets/img/you.png" alt=""></a></li>
+          <li><a href="#"><img src="../assets/img/in.png" alt=""></a></li>
+          <li><a href="#"><img src="../assets/img/glus.png" alt=""></a></li>
+          <li><a href="#"><img src="../assets/img/pin.png" alt=""></a></li>
+        </ul>
+        <div class="opt">
+          <select name="" id="">
+            <option value="">English</option>
+          </select>
+        </div>
+        <div class="opt">
+          <select name="" id="">
+            <option value="">USD</option>
+          </select>
+        </div>
+      </div>
+      <!-- fcol -->
+    </div>
+    <p id="copyright">&copy; Copright 2019 - All Rights Reserved</p>
+  </footer>
+  <!-- footer -->
+
+  <div class="hidden">
+    <div id="login" class="form-login form-box">
+      <div class="form-box-in">
+        <h3 class="title03">Login</h3>
+        <form>
+          <ul class="ipt-list">
+            <li><input type="email" name="email" value="" placeholder="Email"></li>
+            <li><input type="password" name="password" value="" placeholder="Password"></li>
+          </ul>
+          <div class="remember-id">
+            <label><input type="checkbox" name="remember" value=""> <span>Keep me logged in</span></label>
+            <a href="#">Forgot password ?</a>
+          </div>
+          <div class="form-box__btn">
+            <button>LOGIN</button>
+          </div>
+        </form>
+        
+        <div class="fag-login">
+          <p><span>Or login with</span></p>
+          <ul>
+            <li><a href="#" class="fb"><span>Facebook</span></a></li>
+            <li><a href="#" class="gg"><span>Google</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="form-box-footer">Don't have a login ? <a href="#register" class="inline">SIGN UP</a></p>
+    </div>
+    <!-- login -->
+
+    <div id="register" class="form-login form-box">
+      <div class="form-box-in">
+        <h3 class="title03">SIGN UP</h3>
+        <form>
+          <ul class="ipt-list">
+            <li><input type="text" name="name" value="" placeholder="Name"></li>
+            <li><input type="email" name="email" value="" placeholder="Email"></li>
+            <li><input type="password" name="password" value="" placeholder="Password"></li>
+            <li>
+              <ul class="form-date">
+                <li>
+                  <select>
+                    <option>Year</option>
+                    <option>01</option>
+                    <option>02</option>
+                    <option>03</option>
+                  </select>
+                </li>
+                <li>
+                  <select>
+                    <option>Month</option>
+                    <option>01</option>
+                    <option>02</option>
+                    <option>03</option>
+                  </select>
+                </li>
+                <li>
+                  <select>
+                    <option>Day</option>
+                    <option>01</option>
+                    <option>02</option>
+                    <option>03</option>
+                  </select>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div class="remember-id">
+            <label><input type="checkbox" name="policy" value=""> <span>I agree to uLanguage's <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</span></label>
+          </div>
+          <div class="form-box__btn mb00">
+            <button>SIGN UP</button>
+          </div>
+        </form>
+      </div>
+      <p class="form-box-footer">Already have an ? <a href="#login" class="inline">LOGIN</a></p>
+    </div>
+    <!-- login -->
+  </div>
+
+<script src="../assets/js/plugin.js"></script>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,590 @@
+.v-line {
+  height: 1px;
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  background-color: #ccc; }
+
+.v-icon {
+  position: absolute;
+  z-index: 1; }
+
+.v-select {
+  color: #717171; }
+
+.text-mid {
+  font-size: 30px;
+  font-weight: 600; }
+
+.text-left {
+  text-align: left; }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+.v-warning {
+  background-color: #FF000015;
+  padding: 5px 20px;
+  color: #ff4444;
+  font-size: 14px;
+  text-align: center; }
+
+.v-top-calendar .title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 25px;
+  padding-top: 5px;
+  font-family: 'Roboto';
+  letter-spacing: 1px; }
+  .v-top-calendar .title .prev {
+    position: absolute;
+    left: 0px;
+    top: 0px; }
+    .v-top-calendar .title .prev img {
+      max-width: 40px; }
+  .v-top-calendar .title .next {
+    position: absolute;
+    right: 0px;
+    top: 0px; }
+    .v-top-calendar .title .next img {
+      max-width: 40px; }
+
+.v-calendar table {
+  border-collapse: collapse;
+  font-size: 14px;
+  width: 100%;
+  margin-bottom: 20px; }
+  .v-calendar table td, .v-calendar table th {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    position: relative; }
+  .v-calendar table img {
+    position: absolute;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px; }
+  .v-calendar table .v-btn-add {
+    margin-top: 50px;
+    display: block;
+    margin-bottom: 10px; }
+.v-calendar #table2 {
+  border-collapse: collapse;
+  font-size: 14px;
+  width: 100%;
+  margin-bottom: 20px; }
+  .v-calendar #table2 td, .v-calendar #table2 th {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    position: relative; }
+  .v-calendar #table2 img {
+    position: absolute;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px; }
+  .v-calendar #table2 .v-day {
+    text-align: left;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #333333; }
+  .v-calendar #table2 .empty {
+    background-color: #E5E5E5; }
+  .v-calendar #table2 p {
+    margin-bottom: 5px; }
+  .v-calendar #table2 .v-btn-add {
+    margin-top: 15px;
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 10px; }
+
+.relative-row {
+  position: relative;
+  margin-bottom: 30px; }
+
+.v-text {
+  position: relative; }
+
+.v-text:before {
+  position: absolute;
+  background: url("../img/icon/v-calendar.png") no-repeat center;
+  background-size: 100%;
+  content: '';
+  width: 20px;
+  height: 20px;
+  right: 15px;
+  top: 15px; }
+
+#withdraw h3 {
+  margin-bottom: 30px; }
+#withdraw #partner {
+  margin-bottom: 25px; }
+  #withdraw #partner div {
+    width: 20%; }
+#withdraw .v-p {
+  margin-bottom: 25px; }
+#withdraw .v-button-disable a {
+  background-color: #FFCC7F;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-top: 25px;
+  border-radius: 4px; }
+
+#add-time select {
+  margin-top: 30px;
+  margin-bottom: 0px; }
+
+.v-btn-turn {
+  margin-top: -20px;
+  float: right;
+  display: block;
+  position: relative; }
+  .v-btn-turn a {
+    border-radius: 3px;
+    display: block;
+    background-color: #FF9900;
+    width: 230px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600; }
+
+#edit textarea {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  min-height: 95px; }
+#edit .flex-row input {
+  width: 33%;
+  margin-right: 15px; }
+#edit .flex-row span {
+  padding-top: 12px; }
+
+.btn-submit-popup {
+  margin-top: 30px;
+  margin-bottom: 10px; }
+  .btn-submit-popup a {
+    text-transform: uppercase;
+    background-color: #FE9900;
+    color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 13px; }
+
+.v-note {
+  color: #333; }
+  .v-note span {
+    color: red; }
+
+.padding-25-50 {
+  padding: 25px 50px; }
+
+.padding-50 {
+  padding: 0px 50px; }
+
+.padding-0 {
+  padding: 0px; }
+
+.switch-title {
+  width: 165px !important;
+  padding-left: 65px; }
+  .switch-title .slider {
+    width: 32%; }
+  .switch-title input:checked + .slider {
+    width: 32%;
+    background-color: #2AD900; }
+
+.price-lesson-table {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #018EE315; }
+  .price-lesson-table select {
+    background-color: #fff; }
+  .price-lesson-table table thead tr {
+    height: 30px; }
+  .price-lesson-table table thead td {
+    height: 10px; }
+  .price-lesson-table table td {
+    padding-right: 15px; }
+  .price-lesson-table table td:nth-child(1) {
+    width: 3%; }
+  .price-lesson-table table td:nth-child(2) {
+    width: 17%; }
+  .price-lesson-table table td:nth-child(3) {
+    width: 10%;
+    text-align: center; }
+  .price-lesson-table table td:nth-child(4) {
+    width: 17%; }
+  .price-lesson-table table td:nth-child(5) {
+    width: 10%; }
+  .price-lesson-table table td:nth-child(6) {
+    width: 17%; }
+  .price-lesson-table table td:nth-child(7) {
+    width: 17%;
+    padding-right: 0px; }
+
+.space-10 {
+  height: 10px; }
+
+.space-15 {
+  height: 15px; }
+
+.space-20 {
+  height: 20px; }
+
+.space-25 {
+  height: 25px; }
+
+.space-30 {
+  height: 30px; }
+
+.row-2col .col-1 {
+  padding-right: 10px; }
+.row-2col .col-2 {
+  padding-left: 10px; }
+  .row-2col .col-2 .flex-row {
+    width: 100%; }
+    .row-2col .col-2 .flex-row div:nth-child(1) {
+      padding-right: 5px; }
+    .row-2col .col-2 .flex-row div:nth-child(2) {
+      padding-left: 5px; }
+
+/*#create-lesson.form-box {
+  width: 1024px;
+  max-width: 90%; }*/
+
+#create-lesson .form-box-in {
+  padding: 25px 0px; }
+#create-lesson label {
+  font-size: 16px;
+  font-weight: 500; }
+#create-lesson textarea {
+  min-height: 100px;
+  border: 1px solid #717171; }
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap; }
+  .flex-row div {
+    width: 50%; }
+
+.form-box {
+  display: none; }
+
+#colorbox .form-box {
+  display: block; }
+
+#book-flex div {
+  margin-top: 20px; }
+#book-flex label {
+  margin-top: 20px; }
+
+.v-button a {
+  max-width: 180px; }
+
+#book-flex2 div {
+  margin-top: 20px; }
+#book-flex2 label input {
+  margin-right: 10px; }
+
+.v-group select {
+  max-width: 300px; }
+.v-group label {
+  margin-bottom: 10px;
+  display: block; }
+.v-group .group-title {
+  font-size: 20px;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 10px; }
+.v-group .v-box-lesson {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  position: relative; }
+  .v-group .v-box-lesson .v-title-lesson {
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    padding-bottom: 5px;
+    margin-bottom: 5px; }
+  .v-group .v-box-lesson .v-title-lesson:before {
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    background-color: #2AD900;
+    left: -25px;
+    top: 6px;
+    content: '';
+    position: absolute; }
+  .v-group .v-box-lesson .v-title-lesson:after {
+    width: 22px;
+    height: 0.5px;
+    background-color: #777;
+    left: 0px;
+    bottom: 0px;
+    content: '';
+    position: absolute; }
+  .v-group .v-box-lesson .v-info-lesson {
+    font-weight: 400;
+    font-size: 14px;
+    color: #777; }
+  .v-group .v-box-lesson .v-edit {
+    width: 24px;
+    height: 24px;
+    top: 0px;
+    bottom: 0px;
+    right: 80px;
+    margin: auto; }
+  .v-group .v-box-lesson .v-edit.right-0 {
+    right: 40px; }
+  .v-group .v-box-lesson .v-del {
+    width: 24px;
+    height: 24px;
+    top: 0px;
+    bottom: 0px;
+    right: 30px;
+    margin: auto; }
+
+.mtop-10 {
+  margin-top: 10px; }
+
+.mtop-15 {
+  margin-top: 15px; }
+
+.mtop-20 {
+  margin-top: 20px; }
+
+.mtop-25 {
+  margin-top: 25px; }
+
+.pageNavi.right {
+  justify-content: flex-end; }
+
+.v-check-contain {
+  position: relative;
+  padding-left: 40px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500; }
+  .v-check-contain input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0; }
+  .v-check-contain .checkmark {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+    border: 1px solid #ccc; }
+  .v-check-contain .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none; }
+  .v-check-contain input:checked ~ .checkmark {
+    border-color: #018EE3; }
+  .v-check-contain input:checked ~ .checkmark:after {
+    display: block; }
+  .v-check-contain .checkmark:after {
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    width: 10px;
+    height: 10px;
+    background-color: #018EE3; }
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 24px; }
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0; }
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s; }
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 1px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s; }
+
+input:checked + .slider {
+  background-color: #2196F3; }
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3; }
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px); }
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px; }
+
+.slider.round:before {
+  border-radius: 50%; }
+
+.v-box-check .top {
+  padding-bottom: 5px;
+  position: relative;
+  margin-bottom: 5px; }
+.v-box-check .top:before {
+  height: 0.5px;
+  width: 23px;
+  left: 40px;
+  bottom: 0px;
+  content: '';
+  position: absolute;
+  background-color: #ccc; }
+.v-box-check .bot {
+  display: flex;
+  padding-left: 40px; }
+  .v-box-check .bot .v-number-check {
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #777777;
+    margin-right: 50px; }
+  .v-box-check .bot a {
+    font-size: 14px;
+    font-weight: 500; }
+
+.v-popup label {
+  margin-bottom: 10px;
+  display: block;
+  font-size: 16px;
+  font-weight: 500; }
+.v-popup select {
+  margin-bottom: 20px; }
+
+@media (max-width: 1024px) {
+  #create-lesson.form-box {
+    width: 90%; }
+
+  .v-calendar #table2 p {
+    font-size: 12px; }
+
+  .v-calendar #table2 .v-day {
+    padding-left: 5px; }
+
+  .v-calendar #table2 .v-btn-add {
+    padding-left: 5px; } }
+@media (max-width: 780px) {
+  #create-lesson.form-box {
+    width: 90%; }
+
+  .v-btn-turn {
+    float: none;
+    margin: auto;
+    display: block;
+    margin-top: 10px; }
+
+  .v-calendar #table1 thead td {
+    font-size: 9px;
+    min-width: 60px; }
+
+  .v-calendar #table2 td, .v-calendar #table2 th {
+    font-size: 9px; }
+
+  .v-popup .padding-0 {
+    overflow-x: scroll; }
+
+  .price-lesson-table {
+    padding: 25px 15px;
+    width: 921px; }
+
+  .v-group .v-box-lesson .v-edit {
+    right: 45px; }
+
+  .v-group .v-box-lesson .v-del {
+    right: 10px; }
+
+  .v-group .v-box-lesson .v-edit.right-0 {
+    right: 10px; }
+
+  .v-calendar #table2 p {
+    font-size: 12px; } }
+@media (max-width: 480px) {
+  .v-calendar #table1 thead td {
+    min-width: initial; }
+
+  .v-calendar #table2 td, .v-calendar #table2 th {
+    font-size: 8px; }
+
+  .v-group .v-box-lesson .v-info-lesson {
+    max-width: 80%; }
+
+  .v-group select {
+    max-width: 100%; }
+
+  #edit .flex-row span {
+    padding-top: 14px; }
+
+  #row-1 .col-1 {
+    width: 100%;
+    padding-right: 0px; }
+  #row-1 .col-2 {
+    width: 100%;
+    padding-left: 0px; }
+
+  #create-lesson.form-box {
+    width: 90%;
+    max-width: 90%;
+    margin: auto; }
+
+  .v-popup .padding-50 {
+    padding: 0px 15px; }
+  .v-popup h3 {
+    font-size: 25px;
+    margin-bottom: 25px; } }
+
+/*# sourceMappingURL=viet.css.map */
