@@ -104,13 +104,13 @@ input, select, textarea{
 .logo{
   display: inline-block;
   margin: 0 0 0 35px;
-  max-width: 230px;
+  max-width: 200px;
 }
 .logo-text {
-    max-width: 230px;
+    max-width: 200px;
 }
 .logo.custom_logo {
-  max-width: 120px;
+  max-width: 150px;
 }
 .gnav{
   position: absolute;
