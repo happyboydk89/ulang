@@ -110,7 +110,8 @@ input, select, textarea{
     max-width: 200px;
 }
 .logo.custom_logo {
-  max-width: 150px;
+  width: 150px;
+  height: auto;
 }
 .gnav{
   position: absolute;
