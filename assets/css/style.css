@@ -104,7 +104,13 @@ input, select, textarea{
 .logo{
   display: inline-block;
   margin: 0 0 0 35px;
-  max-width: 150px;
+  max-width: 230px;
+}
+.logo-text {
+    max-width: 230px;
+}
+.logo.custom_logo {
+  max-width: 120px;
 }
 .gnav{
   position: absolute;
