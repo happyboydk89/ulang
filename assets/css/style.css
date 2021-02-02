@@ -4,6 +4,11 @@
 	font-family: "Helvetica Neue Condensed";
 	src: url("../fonts/HelveticaNeue BlackCond_1.ttf") format("truetype");
 }
+@font-face {
+	font-family: "Time New Roman";
+	src: url("../fonts/times.ttf") format("truetype");
+	font-style: normal;
+}
 body {
 	font-family: "Roboto", sans-serif;
 	-webkit-text-size-adjust: 100%;
@@ -130,8 +135,9 @@ textarea {
     text-align: center;
     font-size: 21px;
     text-shadow: 1px 1px 0 #fff;
-    font-family: "Helvetica Neue Condensed";
+    font-family: "Time New Roman";
     letter-spacing: 2px;
+    font-weight: bold;
 }
 .logo.custom_logo img {
     width: 95px;
@@ -2697,6 +2703,7 @@ body.dropdown .overlay {
 	margin-left: 5px;
 	display: flex;
 	align-items: center;
+	font-family: "Time New Roman";
 }
 .logo-text.c-white a {
 	color: #fff;
