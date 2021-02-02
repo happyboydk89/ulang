@@ -120,7 +120,7 @@ textarea {
 .logo {
 	display: inline-block;
 	margin: 0 0 0 35px;
-	max-width: 200px;
+	max-width: 150px;
 }
 .logo-text {
 	max-width: 250px;
@@ -128,13 +128,13 @@ textarea {
 .logo.custom_logo {
     height: auto;
     text-align: center;
-    font-size: 25px;
+    font-size: 21px;
     text-shadow: 1px 1px 0 #fff;
     font-family: "Helvetica Neue Condensed";
     letter-spacing: 2px;
 }
 .logo.custom_logo img {
-    width: 105px;
+    width: 95px;
 }
 .gnav {
 	position: absolute;
