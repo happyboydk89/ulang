@@ -129,12 +129,12 @@ textarea {
     height: auto;
     text-align: center;
     font-size: 25px;
-    text-shadow: 2px 2px #fff;
+    text-shadow: 1px 1px 0 #fff;
     font-family: "Helvetica Neue Condensed";
     letter-spacing: 4px;
 }
 .logo.custom_logo img {
-    width: 130px;
+    width: 105px;
 }
 .gnav {
 	position: absolute;
