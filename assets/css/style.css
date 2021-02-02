@@ -123,11 +123,18 @@ textarea {
 	max-width: 200px;
 }
 .logo-text {
-	max-width: 200px;
+	max-width: 250px;
 }
 .logo.custom_logo {
-	width: 166px;
-	height: auto;
+    height: auto;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px #fff;
+    font-family: "Helvetica Neue Condensed";
+    letter-spacing: 4px;
+}
+.logo.custom_logo img {
+    width: 130px;
 }
 .gnav {
 	position: absolute;
@@ -233,6 +240,10 @@ textarea {
 	text-align: center;
 	color: #ff0000;
 	padding: 20px 0;
+}
+.logo-text a img {
+    max-width: 64px;
+    margin-right: 8px;
 }
 @media screen and (max-width: 1023px) {
 	.gnav {
@@ -355,21 +366,24 @@ textarea {
 		top: 0;
 	}
 	.logo {
-		margin: 0 0 0 20px;
+		margin: 0;
 		position: relative;
 		z-index: 100;
 	}
-	.logo a {
+	/*.logo a {
 		display: block;
 		width: 153px;
 		height: 40px;
 		background: url(../img/logo.png) no-repeat center;
 		background-size: cover;
-	}
+	}*/
 	.logo img {
-		opacity: 0;
+		opacity: 1;
 		width: 153px;
-		height: 40px;
+		height: 65px;
+	}
+	.logo.custom_logo {
+		font-size: 20px;
 	}
 }
 .mainvisual {
@@ -2676,10 +2690,11 @@ body.dropdown .overlay {
 	margin-left: 20px;
 }
 .logo-text a {
-	font-size: 35px;
+	font-size: 22px;
 	font-weight: 700;
 	color: #018ee3;
 	height: 64px;
+	margin-left: 5px;
 	display: flex;
 	align-items: center;
 }
@@ -4052,6 +4067,10 @@ a.btn-accept {
 	}
 	.teacher-info__row ul {
 		padding: 0 15px;
+	}
+	
+	.header-page .logo-text {
+		height: 50px;
 	}
 }
 
