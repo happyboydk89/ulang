@@ -133,11 +133,15 @@ textarea {
 .logo.custom_logo {
     height: auto;
     text-align: center;
-    font-size: 21px;
+    font-size: 16px;
     text-shadow: 1px 1px 0 #fff;
     font-family: "Time New Roman";
     letter-spacing: 2px;
     font-weight: bold;
+}
+.logo.custom_logo span{
+	display: block;
+	margin: 0 0 0 5px;
 }
 .logo.custom_logo img {
     width: 95px;
@@ -2696,7 +2700,7 @@ body.dropdown .overlay {
 	margin-left: 20px;
 }
 .logo-text a {
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: 700;
 	color: #018ee3;
 	height: 64px;
